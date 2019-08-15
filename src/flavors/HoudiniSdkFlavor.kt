@@ -32,9 +32,6 @@ class HoudiniSdkFlavor private constructor() : PythonSdkFlavor() {
     }
 
     override fun getSdkPath(path: VirtualFile): VirtualFile? {
-//        if (isHoudiniFolder(File(path.path))) {
-//            return path.findFileByRelativePath("Contents/bin/hython")
-//        }
         return path
     }
 

@@ -5,13 +5,16 @@
   <vendor email="chris@rightsomegoodgames.ca" url="http://github.com/cmcpasserby">RightSomeGoodGames</vendor>
 
   <description><![CDATA[
-    <P>Houdini Intergration and SdkFlavour for PyCharm
+    <P>
+    Houdini Integration and SdkFlavour for PyCharm.
+    This allows python to work with hython.exe as if it was a regular python install.
+    This Plugin is only required on Windows since on MacOS Houdini's Python is exposed as a regular python install.
     </p>
     ]]></description>
 
   <change-notes><![CDATA[
   <ul>
-    <li>First Release, implemented SdkFlavour for hython</li>
+    <li>First Release, implemented SdkFlavour for Houdini's hython Interpreter</li>
   </ul
     ]]>
   </change-notes>
@@ -20,7 +23,6 @@
   <depends>com.intellij.modules.python</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
   </extensions>
 
   <extensions defaultExtensionNs="Pythonid">
@@ -28,7 +30,6 @@
   </extensions>
 
   <actions>
-    <!-- Add your actions here -->
   </actions>
 
 </idea-plugin>
