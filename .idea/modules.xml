@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HoudiniPlugin.iml" filepath="$PROJECT_DIR$/HoudiniPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HythonPlugin.iml" filepath="$PROJECT_DIR$/HythonPlugin.iml" />
     </modules>
   </component>
 </project>
