@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>ca.rightsomegoodgames.HythonPlugin</id>
   <name>Houdini Python Support</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <vendor email="chris@rightsomegoodgames.ca" url="http://github.com/cmcpasserby">RightSomeGoodGames</vendor>
 
   <description><![CDATA[
